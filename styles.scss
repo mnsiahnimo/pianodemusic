@@ -1,0 +1,96 @@
+/*-- scss:defaults --*/
+// Palette: ebony keys, ivory keys, brass/gold accent
+$ebony:  #141414;
+$charcoal: #262626;
+$ivory:  #f7f2e7;
+$ivory-dark: #ece4d2;
+$gold:   #b8893b;
+$gold-dark: #8c6524;
+
+$body-bg: $ivory;
+$body-color: $charcoal;
+$primary: $gold-dark;
+$link-color: $gold-dark;
+$navbar-bg: $ebony;
+$navbar-fg: $ivory;
+$navbar-hl: $gold;
+$footer-bg: $ebony;
+$footer-fg: $ivory;
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Playfair Display", Georgia, serif;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+.navbar { border-bottom: 3px solid $gold; }
+.navbar-brand .navbar-title { font-family: $headings-font-family; letter-spacing: .02em; }
+.nav-footer { border-top: 3px solid $gold; }
+.nav-footer a, .nav-footer .bi { color: $ivory !important; }
+
+// Piano-key stripe used as a divider
+.keys {
+  height: 22px; margin: 0;
+  background:
+    repeating-linear-gradient(90deg, $ebony 0 14px, transparent 14px 40px) 26px 0 / 280px 14px repeat-x,
+    repeating-linear-gradient(90deg, $ivory 0 39px, #cfc6b3 39px 40px);
+  border-bottom: 1px solid #cfc6b3;
+}
+
+// Hero
+.hero {
+  background: radial-gradient(circle at 80% 20%, #2e2a22 0%, $ebony 60%);
+  color: $ivory;
+  padding: 5rem 1.5rem 4.5rem;
+  margin: -1rem calc(50% - 50vw) 0;   // full bleed
+  text-align: center;
+  h1 { color: $ivory; font-size: clamp(2.2rem, 6vw, 3.8rem); margin-bottom: .5rem; }
+  .tagline { font-family: $headings-font-family; font-style: italic; color: $gold; font-size: 1.35rem; }
+  p { max-width: 640px; margin: 1rem auto; color: #ddd5c3; }
+}
+.full-bleed { margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); }
+
+.btn-gold {
+  background: $gold; color: $ebony !important; border: none; font-weight: 600;
+  padding: .7rem 1.4rem; border-radius: 999px; text-decoration: none; display: inline-block; margin: .3rem;
+  &:hover { background: lighten($gold, 8%); }
+}
+.btn-outline-ivory {
+  border: 1.5px solid $ivory; color: $ivory !important; padding: .65rem 1.35rem;
+  border-radius: 999px; text-decoration: none; display: inline-block; margin: .3rem;
+  &:hover { background: rgba(255,255,255,.08); }
+}
+
+.pm-section { max-width: 1100px; margin: 0 auto; padding: 3.5rem 1rem; }
+.section-title { text-align: center; margin-bottom: .3rem; }
+.section-sub { text-align: center; color: #6b6355; margin-bottom: 2.2rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .15em; font-size: .78rem; color: $gold-dark; font-weight: 600; }
+
+// Cards
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.4rem; }
+.pcard {
+  background: #fffdf8; border: 1px solid $ivory-dark; border-top: 4px solid $ebony;
+  border-radius: 10px; padding: 1.6rem; box-shadow: 0 2px 10px rgba(20,20,20,.05);
+  h3 { margin-top: 0; font-size: 1.3rem; }
+  .bi { font-size: 1.8rem; color: $gold-dark; }
+}
+
+// Video embeds
+.video-wrap { position: relative; padding-top: 56.25%; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 10px 30px rgba(20,20,20,.25); background: $ebony; }
+.video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+// Dark band
+.band-dark { background: $ebony; color: $ivory; h2, h3 { color: $ivory; } .section-sub { color: #bdb4a2; } }
+
+// Callout for placeholders
+.tbs { background: #fff3d6; border: 1px dashed $gold; padding: .1rem .4rem; border-radius: 4px; font-size: .9em; }
+
+// Pricing / tiers
+.tier { text-align: center; .price { font-family: $headings-font-family; font-size: 2rem; color: $ebony; } }
+.tier.featured { border-top-color: $gold; transform: translateY(-6px); }
+h2 { border-bottom: none !important; }
+.band-dark .pm-section { padding-top: 4rem; padding-bottom: 4rem; }
+#title-block-header, header.quarto-title-block { display: none !important; }
+.band-dark .pcard h3, .band-dark .pcard { color: $charcoal; }

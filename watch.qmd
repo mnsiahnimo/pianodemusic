@@ -1,0 +1,86 @@
+---
+title: "Watch"
+pagetitle: "Watch — Pianode Music"
+---
+
+::: {.hero style="padding:3.5rem 1.5rem 3rem"}
+# Watch & Listen
+
+<div class="tagline">Lessons, worship medleys and playlists</div>
+
+<a class="btn-gold" href="https://www.youtube.com/@nimopianode" target="_blank"><i class="bi bi-youtube"></i> Visit the YouTube channel</a>
+:::
+
+<div class="keys full-bleed"></div>
+
+::: {.pm-section}
+## Latest uploads {.section-title}
+
+<p class="section-sub">Always up to date — this player pulls from the channel's uploads.</p>
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/videoseries?list=UUnNo5PX8OyuxQ9YpwlBf-yg" title="Pianode Music — latest uploads" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+:::
+
+::: {.pm-section style="padding-top:0"}
+## Playlists {.section-title}
+
+<p class="section-sub">Pick a playlist to watch it right here.</p>
+
+<!--
+  HOW TO ADD A PLAYLIST
+  1. Open the playlist on YouTube. The URL looks like:
+       https://www.youtube.com/playlist?list=PLxxxxxxxxxxxxxxxx
+  2. Copy the part after "list=" (starts with PL).
+  3. In a block below, replace PLAYLIST_ID_HERE with it (in BOTH places)
+     and replace the title/description.
+  4. Copy a whole block to add more playlists.
+-->
+
+::: {.card-grid style="grid-template-columns:repeat(auto-fit,minmax(420px,1fr))"}
+
+::: {.pcard}
+### <span class="tbs">[TO BE SUPPLIED: Playlist 1 title]</span>
+
+<span class="tbs">[TO BE SUPPLIED: one-line description]</span>
+
+<div class="video-wrap"><iframe src="https://www.youtube.com/embed/videoseries?list=PLAYLIST_ID_HERE" title="Playlist 1" allowfullscreen loading="lazy"></iframe></div>
+
+[Open on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)
+:::
+
+::: {.pcard}
+### <span class="tbs">[TO BE SUPPLIED: Playlist 2 title]</span>
+
+<span class="tbs">[TO BE SUPPLIED: one-line description]</span>
+
+<div class="video-wrap"><iframe src="https://www.youtube.com/embed/videoseries?list=PLAYLIST_ID_HERE" title="Playlist 2" allowfullscreen loading="lazy"></iframe></div>
+
+[Open on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)
+:::
+
+::: {.pcard}
+### <span class="tbs">[TO BE SUPPLIED: Playlist 3 title]</span>
+
+<span class="tbs">[TO BE SUPPLIED: one-line description]</span>
+
+<div class="video-wrap"><iframe src="https://www.youtube.com/embed/videoseries?list=PLAYLIST_ID_HERE" title="Playlist 3" allowfullscreen loading="lazy"></iframe></div>
+
+[Open on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)
+:::
+
+::: {.pcard}
+### <span class="tbs">[TO BE SUPPLIED: Playlist 4 title]</span>
+
+<span class="tbs">[TO BE SUPPLIED: one-line description]</span>
+
+<div class="video-wrap"><iframe src="https://www.youtube.com/embed/videoseries?list=PLAYLIST_ID_HERE" title="Playlist 4" allowfullscreen loading="lazy"></iframe></div>
+
+[Open on YouTube](https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)
+:::
+
+:::
+
+<p style="text-align:center;margin-top:2rem"><a class="btn-gold" href="https://www.youtube.com/@nimopianode/playlists" target="_blank">See every playlist on YouTube</a></p>
+:::

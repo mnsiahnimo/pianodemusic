@@ -1,0 +1,99 @@
+---
+title: "Lessons"
+pagetitle: "Lessons — Pianode Music"
+---
+
+::: {.hero style="padding:3.5rem 1.5rem 3rem"}
+# Piano Lessons
+
+<div class="tagline">Tailored to your goals. Built around your ear.</div>
+
+Whether you're touching the keys for the first time or want to play worship songs by ear, lessons meet you where you are.
+:::
+
+<div class="keys full-bleed"></div>
+
+::: {.pm-section}
+<div class="eyebrow" style="text-align:center">The approach</div>
+
+## How lessons work {.section-title}
+
+<p class="section-sub">A supportive, nurturing teaching approach that fosters creativity and individuality.</p>
+
+::: {.card-grid}
+::: {.pcard}
+<i class="bi bi-ear"></i>
+
+### Train your ear
+
+Develop a keen musical ear so you can recognise melodies, chords and progressions.
+:::
+
+::: {.pcard}
+<i class="bi bi-keyboard"></i>
+
+### Play by hearing
+
+Turn what you hear into what you play — the foundation for gospel and worship piano.
+:::
+
+::: {.pcard}
+<i class="bi bi-person-check"></i>
+
+### Personalised path
+
+Every student's goals are different; lessons are tailored to each one.
+:::
+:::
+:::
+
+::: {.band-dark .full-bleed}
+::: {.pm-section}
+<div class="eyebrow" style="text-align:center;color:#b8893b">Coming soon</div>
+
+## Professional lesson membership {.section-title}
+
+<p class="section-sub">Structured courses and subscriber-only lessons are on the way.</p>
+
+::: {.card-grid}
+::: {.pcard .tier style="color:#262626"}
+### Free
+
+<div class="price">$0</div>
+
+Lessons and worship medleys on YouTube.
+
+<a class="btn-gold" href="https://www.youtube.com/@nimopianode?sub_confirmation=1" target="_blank">Subscribe</a>
+:::
+
+::: {.pcard .tier .featured style="color:#262626"}
+### <span class="tbs">[TO BE SUPPLIED: tier name]</span>
+
+<div class="price"><span class="tbs">[TO BE SUPPLIED]</span></div>
+
+<span class="tbs">[TO BE SUPPLIED: what subscribers get]</span>
+
+<!-- Replace # with your course platform link (Teachable, Thinkific, Patreon, etc.) -->
+<a class="btn-gold" href="#">Join — coming soon</a>
+:::
+
+::: {.pcard .tier style="color:#262626"}
+### <span class="tbs">[TO BE SUPPLIED: 1-on-1 lessons?]</span>
+
+<div class="price"><span class="tbs">[TO BE SUPPLIED]</span></div>
+
+<span class="tbs">[TO BE SUPPLIED: format, length, online/in person]</span>
+
+<a class="btn-gold" href="contact.qmd">Ask about it</a>
+:::
+:::
+:::
+:::
+
+::: {.pm-section style="text-align:center"}
+## Start free today
+
+<p class="section-sub">Watch the lessons already on the channel while the full courses are prepared.</p>
+
+<a class="btn-gold" href="watch.qmd">Go to Watch</a>
+:::
